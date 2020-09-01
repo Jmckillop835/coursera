@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Intro to HTML5 Final Project</title>
+</head>
+
+<body>
+
+	<header>
+		<h1>Jim McKillop</h1>
+	</header>
+
+	<nav>
+		<a id=one href="#one">One</a>
+		<a id=two href="#two">Two</a>
+		<a id=three href="#three">Three</a>
+		<a id=infinity href="#infinity">Infinity</a>
+	</nav>
+
+	<section>
+	<h2>Favorite Foods</h2>
+		<ul>
+			<li>Pizza</li>
+			<li>Jambalaya</li>
+			<li>Pulled Pork BBQ </li>
+			<li>Cajun chicken pasta </li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Achievements</h2>
+		<p> Progress in this course (100%) <progress value="100" max="100"> </progress> </p>
+		<p> Progress in this Specialization capstone (20%) <progress value="20" max="100"> </progress> </p>
+		<p> Progress in life goals (77)% <progress value="77" max="100"> </progress> </p>
+	</section>
+
+	<section>
+		<h2>More About Me</h2>
+		<details> <summary>My Childhood</summary> I was born and raised in the northeastern United States</details>
+	</section>
+
+	<footer> 
+			<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo for Web Design for Everybody web site"> 
+			This page was created by Jim McKillop &amp; Colleen van Lent.  To learn more about web design, visit <a href=http://www.intro-webdesign.com> Intro to Web Design </a>
+	</footer>
+
+</body>
+
+</html>
